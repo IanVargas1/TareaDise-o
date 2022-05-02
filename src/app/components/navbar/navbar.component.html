@@ -1,10 +1,21 @@
 <nav class="navbar">
   <div class="container-fluid">
-    <span class="navbar-brand h1">App Empleados - Firebase</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span><img src="./assets/My project.png" height="30"></span>
-        </button>
+    <div class="dropdown mb-2">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenu2"
+        data-bs-toggle="dropdown"
+        aria-expanded="true">
+        <span><img src="./assets/Hamburger_icon.png" height="30"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><button class="dropdown-item" type="button">Action</button></li>
+        <li><button class="dropdown-item" type="button">Another action</button></li>
+        <li><button class="dropdown-item" type="button">Something else here</button></li>
+      </ul>
+    </div>
+    <i class="fa-solid fa-circle-user" ></i>
   </div>
   <div class="line"></div>
 </nav>
