@@ -1,0 +1,19 @@
+.card{
+  background-color:rgba(145, 145, 145, 0.123);
+  border-radius: 12px;
+  
+}
+
+
+.txtlogo{
+  font-size: 30;
+  color: #b8c0c3;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(53, 53, 53, 0.603);
+}
+
+p{
+  text-align: justify;
+  font-size: 20;
+  color: #ccd5d8;
+}

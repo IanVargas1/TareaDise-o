@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ListaProductosComponent } from './components/lista-productos/lista-productos.component';
 import { PublicarProductoComponent } from './components/publicar-producto/publicar-producto.component';
+import { ProductoComponent } from './components/producto/producto.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { PublicarProductoComponent } from './components/publicar-producto/public
     LoginComponent,
     AcercaDeComponent,
     ListaProductosComponent,
-    PublicarProductoComponent
+    PublicarProductoComponent,
+    ProductoComponent
   ],
   bootstrap: [
     AppComponent

@@ -1,3 +1,61 @@
 <app-navbar></app-navbar>
 
-<p>publicar-producto works!</p>
+<div class="container">
+  <div
+    class="row col-lg-6 offset-lg-3"
+    style="margin-top:3px; margin-bottom:10px"
+  >
+    <h1 class="txtlogo mt-5">Publicar nuevo producto</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-10 offset-lg-1">
+      <div class="card text-center">
+        <div class="card-body">
+          <form>
+            <div class="row mt-4">
+              <div class="col">
+                <button class="cosa btn btn-primary float-start">Añadir imagen</button>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <input
+                  type="text"
+                  class="cosa form-control"
+                  placeholder="Nombre del producto"
+                />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <input
+                  type="number"
+                  class="cosa form-control"
+                  placeholder="Precio (en colones)"
+                />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <input
+                  type="text"
+                  class="cosa form-control"
+                  placeholder="Descripción"/>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <button
+                  class="cosa btn btn-primary float-end"
+                  routerLink="/Lista-Productos">
+                  Publicar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
