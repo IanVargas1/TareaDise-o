@@ -1,0 +1,31 @@
+
+.card{
+  background-color:rgba(145, 145, 145, 0.123);
+  border-radius: 12px;
+}
+
+.form-control{
+  border-radius: 10px;
+}
+
+
+.cosa{
+  box-shadow: 2px 2px 3px rgba(53, 53, 53, 0.603);
+}
+
+.txtlogo{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 70;
+  color: #b8c0c3;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(53, 53, 53, 0.603);
+}
+
+label{
+  color: #ccd5d8;
+}
+.recuperar{
+  margin-top: 15px;
+  color: #ccd5d8;
+  cursor: pointer;
+}
